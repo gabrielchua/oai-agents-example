@@ -96,14 +96,3 @@ Here is an example of a query that will be blocked by the output guardrail:
 ```bash
 python agent.py "Reply in Japanese - What are the best places to visit in Japan?"
 ```
-
-## Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/multi-agent-travel-query.git
-cd multi-agent-travel-query
-
-# Install dependencies
-pip install -r requirements.txt
-```
