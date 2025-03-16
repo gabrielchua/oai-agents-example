@@ -38,17 +38,17 @@ This project demonstrates a  multi-agent workflow for handling travel-related qu
 Run the application with your query:
 
 ```bash
-python agent.py "I'm planning a trip to Japan in April. What are the must-see cherry blossom spots?"
+python run.py "I'm planning a trip to Japan in April. What are the must-see cherry blossom spots?"
 ```
 
 Here is an example of a query that will be blocked by the input guardrails:
 
 ```bash
-python agent.py "What is 1+1?"
+python run.py "What is 1+1?"
 ```
 
 Here is an example of a query that will be blocked by the output guardrail:
 
 ```bash
-python agent.py "Reply in Japanese - What are the best places to visit in Japan?"
+python run.py "Reply in Japanese - What are the best places to visit in Japan?"
 ```
